@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./indexstyle.xsl" type="text/xsl"?>
+<MSP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./indexschema.xsd">
+    <Artist>
+        <Name>Pink Floyd</Name>
+        <Genre>Classic Rock</Genre>
+        <Popularity>225</Popularity>
+        <Albums>12</Albums>
+        <Singles>8</Singles>
+        <MonthlyListeners>12000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Eminem</Name>
+        <Genre>Rap/Hip-Hop</Genre>
+        <Popularity>13</Popularity>
+        <Albums>8</Albums>
+        <Singles>37</Singles>
+        <MonthlyListeners>57000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>John Mayer</Name>
+        <Genre>Blues</Genre>
+        <Popularity>256</Popularity>
+        <Albums>5</Albums>
+        <Singles>13</Singles>
+        <MonthlyListeners>10000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Taylor Swift</Name>
+        <Genre>Pop</Genre>
+        <Popularity>1</Popularity>
+        <Albums>9</Albums>
+        <Singles>26</Singles>
+        <MonthlyListeners>72000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Lorna Shore</Name>
+        <Genre>Metal</Genre>
+        <Popularity>637</Popularity>
+        <Albums>4</Albums>
+        <Singles>8</Singles>
+        <MonthlyListeners>2000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>David Guetta</Name>
+        <Genre>EDM</Genre>
+        <Popularity>295</Popularity>
+        <Albums>3</Albums>
+        <Singles>57</Singles>
+        <MonthlyListeners>9000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Blake Shelton</Name>
+        <Genre>Country</Genre>
+        <Popularity>477</Popularity>
+        <Albums>6</Albums>
+        <Singles>12</Singles>
+        <MonthlyListeners>5000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Justin Timberlake</Name>
+        <Genre>R&amp;B</Genre>
+        <Popularity>195</Popularity>
+        <Albums>7</Albums>
+        <Singles>25</Singles>
+        <MonthlyListeners>13000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Frank Sinatra</Name>
+        <Genre>Jazz</Genre>
+        <Popularity>366</Popularity>
+        <Albums>13</Albums>
+        <Singles>35</Singles>
+        <MonthlyListeners>7000000</MonthlyListeners>
+    </Artist>
+    <Artist>
+        <Name>Imagine Dragons</Name>
+        <Genre>Alternative</Genre>
+        <Popularity>23</Popularity>
+        <Albums>5</Albums>
+        <Singles>17</Singles>
+        <MonthlyListeners>53000000</MonthlyListeners>
+    </Artist>
+</MSP>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="MSP">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Artist" minOccurs="1" maxOccurs="10">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Genre" type="xs:string"/>
+                            <xs:element name="Popularity">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1"/>
+                                        <xs:maxInclusive value="1000"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="Albums">
+                                    <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="0"/>
+                                        <xs:maxInclusive value="50"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="Singles">
+                                    <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1"/>
+                                        <xs:maxInclusive value="4000"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="MonthlyListeners">
+                                    <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1"/>
+                                        <xs:maxInclusive value="100000000"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
